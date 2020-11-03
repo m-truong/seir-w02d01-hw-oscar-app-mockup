@@ -1,0 +1,121 @@
+/* Body Styling */
+body {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Container Styling */
+.card-container,
+.coa-container,
+.footer-container {
+    padding-top: 100px;
+    margin-top: 200px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Navbar Section Styling */
+body>div>h3.oscar-title {
+    color: blue;
+    text-transform: uppercase !important;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.dark-blue-text {
+    color: #2f55ec;
+}
+
+/* Oscar Image Section Styling */
+div.overlapping-image-text {
+    color: white;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+div.overlapping-image-text>h3#image-header {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 50px;
+}
+
+div.overlapping-image-text>p#image-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 50%;
+}
+
+div.imgbox {
+    display: grid;
+    height: 100%;
+}
+
+div.imgbox>img#oscar-hero {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    position: relative;
+    display: block;
+    z-index: -1;
+}
+
+div.overlapping-image-text>button.oscar-button {
+    color: darkblue;
+}
+
+/* Card Deck Section Styling */
+div.card-body>h1.card-title {
+    font-size: 20px;
+    padding: 25px;
+}
+
+div.card-deck>div.card {
+    min-width: 220px;
+}
+
+div.card-container>div.card>img.card-image {
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+div.card>div.card-body>button.card-button {
+    width: 150px;
+    margin: 0 auto;
+}
+
+/* Call To Action Section Styling */
+div.coa-container {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div.coa-container>p.coaTitle {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+div.coa-container>p.coaPara {
+    font-size: 55px;
+    padding: 5px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-weight: bolder;
+}
+
+div.coa-container>button.coa-button {
+    width: 300px;
+    margin: 50px;
+}
+
+/* Footer Section Styling */
+li.column-text {
+    padding: 10px 0 !important;
+}
